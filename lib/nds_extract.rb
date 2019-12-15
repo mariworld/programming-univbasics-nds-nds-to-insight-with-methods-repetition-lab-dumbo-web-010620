@@ -35,20 +35,20 @@ def list_of_directors(source)
   dir_list
 end
 
-def total_gross(source)
-  index = 0
-  source[index]
-  list_of_directors(source)
-  directors_totals(source)
-  #directors_totals(source).keys
-  while index < source.length do
-  total = 0
-  total += directors_totals(source).values[index]
-  index +=1
-  #binding.pry
-  end
-  total
-end
+# def total_gross(source)
+#   index = 0
+#   source[index]
+#   list_of_directors(source)
+#   directors_totals(source)
+#   #directors_totals(source).keys
+#   while index < source.length do
+#   total = 0
+#   total += directors_totals(source).values[index]
+#   index +=1
+#   #binding.pry
+#   end
+#   total
+# end
 
 # Write this implementation
   #
