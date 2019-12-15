@@ -41,8 +41,8 @@ def total_gross(source)
   list_of_directors(source)
   directors_totals(source)
   #directors_totals(source).keys
-  while index < source.length do
   total = 0
+  while index < source.length do
   total += directors_totals(source).values[index]
   binding.pry
   index +=1
